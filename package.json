@@ -1,0 +1,26 @@
+{
+  "name": "emor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "faucet": "node service/faucet.js",
+    "deploy": "node service/deploy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "axios": "^1.7.9",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.4.7",
+    "emor": "file:",
+    "ethers": "^6.13.5",
+    "figlet": "^1.8.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "solc": "^0.8.28"
+  }
+}
